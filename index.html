@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>Lyrics and Artist Search</title>
+</head>
+<body>
+
+    <header>
+        <div class="header-container">
+            <div class="hero-desc">
+            <h1>Song and Artist Search</h1>
+            <h3>Put some <span class="styled-word">rhythm</span>  to your life and <span class="yellow">sing</span> your favorite song.</h3>
+            </div>
+            <img src="assets/2977989.jpg" alt="picture of people having fun with music" width="400px">
+        </div>
+    </header>
+
+<section class="search-container">
+    <div class="search">
+        <form action="" id="search-form">
+            <h3>Searh a song by the Artist</h3>
+            <input type="text" name="song-name" id="song" placeholder="Song Name" required>
+            <input type="text" name="artist-name" id="artist" placeholder="Artist Name" required>
+            <input type="submit">
+        </form>
+    </div>
+</section>
+<article class="media-container hide">
+  <div class="media-info ">
+        <section class="artist-info">
+            <h2 class="artist-name"></h2>
+            <p class="artist-genre"></p>
+            <img>
+            <div class="info-card">
+                <p class ="year-formed"></p>
+                <p class ="born-death"></p>
+                <a>Site</a>
+            </div>
+            <p class="artist-bio"></p>
+
+        </section>
+        <section class="song-lyric">
+            <h3></h3>
+            <p></p>
+        </section>
+    </div>
+</article>
+  
+
+<script src="js/search.js"></script>
+</body>
+</html>
